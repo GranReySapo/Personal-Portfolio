@@ -1,0 +1,70 @@
+body{
+    color: lightgray;
+    background-color: #000F2B;
+}
+#divPresentation, #frameworks, #programmingLanguages, #softSkills, #tools{
+
+    background-color: #263B61;
+}
+
+header{
+
+    background-color: #1B264D;
+}
+
+.btnsocials{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    border-radius: 100%;
+    transition: background-color 0.5s ease;
+    
+}
+
+.btnsocials:hover{
+    background-color: lightgray;
+
+}
+
+.btnSkills{
+    background-color: #1B264D;
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+    position: relative;
+}
+
+.overlay-text {
+    margin: 0;
+    padding: 3px;
+    position: absolute;
+    color: lightgray;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-shadow: 0 0 2px #000, 0 0 5px #000, 0 0 10px #000
+}
+
+.btnSkills:hover{
+    
+    background-color: #232323;
+    
+}
+
+
+
+.btnSkills:hover .overlay-text{
+    opacity: 100;
+}
+
+#divMini{
+    max-width: 605px;
+
+}

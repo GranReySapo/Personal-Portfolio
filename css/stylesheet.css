@@ -7,9 +7,19 @@ body{
     background-color: #263B61;
 }
 
+
 header{
 
     background-color: #1B264D;
+}
+
+.colorNav{
+
+    color: lightgray;
+}
+
+.colorNav:hover{
+    color: gray;
 }
 
 .btnsocials{
@@ -26,6 +36,11 @@ header{
 .btnsocials:hover{
     background-color: lightgray;
 
+}
+
+.selectNav{
+    border-color: #263B61;
+    background-color: #000F2B;
 }
 
 .btnSkills{

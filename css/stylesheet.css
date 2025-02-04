@@ -1,12 +1,19 @@
 body{
     color: lightgray;
     background-color: #000F2B;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 #divPresentation, #frameworks, #programmingLanguages, #softSkills, #tools{
 
     background-color: #263B61;
 }
 
+.titles{
+
+}
 
 header{
 

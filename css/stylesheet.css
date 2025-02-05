@@ -11,8 +11,18 @@ body{
     background-color: #263B61;
 }
 
-.titles{
+#download{
+    border-radius: 20px;
+    background-color: #28a745;
+    color: white;
+}
 
+#download img{
+    filter: invert(1);
+}
+
+#download:hover{
+    filter: brightness(0.7);
 }
 
 header{
